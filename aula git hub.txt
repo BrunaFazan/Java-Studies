@@ -25,3 +25,23 @@ agora que foi tudo commitado, precisamos enviar despachar isso para o Github:
     git push. 
 
 e agora temos que atualizar esses arquivos que estão no github:
+    é só commitar e dar push novamente. 
+
+navegando entre as versões dos commits:
+    pela própria interface do github é possível ver quem fez e quais foram as alterações.
+    tem um comando do git que mostra os comits que a gente ja fez:
+    git reflog.
+    voltando para versoes antigas: git reset --hard + o id do commit. só que volta tudo, pra versão antiga, ou pra versão mais nova.
+
+Entendendo o que são as branches:
+    temos a branch principal, a ramificação principal, a main, é onde as coisas estão ok e sempre funcionando. 
+    podemos ter a branch de desenvolvimento, onde estamos testando coisas e etc, onde teremos mais versões que na main.
+    e só quando tiver tudo certo na branch nós enviamos os arquivos pra branch main.
+    o comando git branch mostra quais as branchs e onde estamos trabalhando.
+    o comando git branch nome da branch cria a branch nova.
+    e o comando git checkout nome da branch muda pra ela.
+    
+    como criamos a branch em determinado momento, tudo que foi feito após a criação dela não foi salvo, para que essas novas informações sejam 
+    salvas, temos que envia-las a branch certa.
+
+    
