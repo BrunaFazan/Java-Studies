@@ -1,0 +1,16 @@
+aula Github Rasmoo -->
+
+Instalação do github:
+    Entrar no site do git-scm, e baixamos o git com os bits do pc. 
+
+criando um repositório e o clonando para o pc:
+    primeiro criamos um repo dentro do Github. Após cirado, vamo no botão code selecionamos a opção https e copiamos o link disponibilizado.
+    selecionamos a pasta onde queremos clonar o repositório abrimos o terminal dentro dela, escrevemos git clone e colamos o link do repositório.
+
+primeiros comandos do git:
+    para verificar se seu repositório no git está atualizado junto com o arquivo no seu pc onde vc está trabalhando, 
+    usamos git status no git bash (sempre dentro da pasta do repositório).
+    Nós temos que adicionar os arquivos que não foram commitados para essa fila, para que possa subir e ir para o repositório.
+    O comando git add . adiciona todos os arquivos não commitados para essa fila, para subir para o repositório. se vc quiser adicionar algum especifico 
+    vc coloca git add e o nome do arquivo. 
+    
