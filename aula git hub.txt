@@ -13,4 +13,15 @@ primeiros comandos do git:
     Nós temos que adicionar os arquivos que não foram commitados para essa fila, para que possa subir e ir para o repositório.
     O comando git add . adiciona todos os arquivos não commitados para essa fila, para subir para o repositório. se vc quiser adicionar algum especifico 
     vc coloca git add e o nome do arquivo. 
-    
+    nisso, nós colocams o arquivo na fila para ser commitado, ele ainda não esta no repositório, esta pronto pra entrar. 
+    agora colocamos a descrição do commit, com o comando (git commit -m "aqui dentro vai a mensagem do commit")
+    mas para que o  git aceite seu commit vc precisa se idenificar, mandando seu email e nome de usuario:
+    git config --global user.email "bruna.fazan@yahoo.com.br"
+    e depois fazer a mesma coisa só que com o nome:
+    git config --global user.nome "Bruna Fazan"
+
+agora que foi tudo commitado, precisamos enviar despachar isso para o Github:
+    esse comando pega todos os commits que a gente fez e manda pro git:
+    git push. 
+
+e agora temos que atualizar esses arquivos que estão no github:
