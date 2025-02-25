@@ -41,3 +41,9 @@ Entendendo o que são as branches:
     o comando git branch nome da branch cria a branch nova.
     e o comando git checkout nome da branch muda pra ela.
     
+    como criamos a branch em determinado momento, tudo que foi feito após a criação dela não foi salvo, para que essas novas informações sejam 
+    salvas, temos que envia-las a branch certa.
+    e para conseguirmos add na branch certa temos que cria-la no github primeiro. 
+    git push --set-upstream origin desenvolvimento
+    isso criou um pull request no Github
+
